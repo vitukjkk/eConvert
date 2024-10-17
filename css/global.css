@@ -1,0 +1,19 @@
+* {
+    /* CORES */
+    --cor-primaria: black;
+    --cor-secundaria: white;
+
+    /* TIPOGRAFIA */
+    --font-primaria: 1rem/1.5 'Oswald', sans-serif;
+    --font-secundaria: 1rem/1.5 'Open Sans', sans-serif;
+}
+
+body {
+    font: var(--font-primaria);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria)
+}

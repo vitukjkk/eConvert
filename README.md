@@ -15,5 +15,6 @@ Conversão de cores (HEX, RGB, CMYK, etc.)
 Conversão de vídeos e áudios (MP4, MP3, WAV, etc.)
 
 ##  💻 Tecnologias Utilizadas
-HTML/CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
