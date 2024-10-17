@@ -1,0 +1,16 @@
+/* ================================= */
+/* HEADER */
+/* ================================= */
+
+.divHeader {
+    align-content: center;
+    padding: 1rem;
+}
+
+/* ICONS */
+
+.imgHeaderIcons {
+    width: 30px;
+    height: 30px;
+    filter: invert();
+}

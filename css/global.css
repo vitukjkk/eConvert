@@ -2,6 +2,7 @@
     /* CORES */
     --cor-primaria: black;
     --cor-secundaria: white;
+    --cor-a: gray;
 
     /* TIPOGRAFIA */
     --font-primaria: 1rem/1.5 'Oswald', sans-serif;
@@ -15,5 +16,19 @@ body {
     box-sizing: border-box;
 
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria)
+    color: var(--cor-secundaria);
+}
+
+header {
+    @media (min-width: 900px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+    }
+}
+
+footer {
+    font: var(--font-secundaria);
+    padding: 1rem;
+    text-align: center;
 }

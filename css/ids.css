@@ -1,0 +1,18 @@
+/* HEADER */
+
+#divHeaderLeft {
+    text-align: left;
+}
+
+#divHeaderCenter {
+    text-align: center;
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+#divHeaderRight {
+    text-align: right;
+}
