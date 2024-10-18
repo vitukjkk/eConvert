@@ -26,8 +26,15 @@
 
 .imgMainBanners {
     max-width: 100%;
+    
+    animation: changeMainBanner 10s infinite;
 }
 
 @keyframes changeMainBanner {
-    
+    0% {
+        transform: scale(.5);
+    }
+    30% {
+        transform: scale(1);
+    }
 }
