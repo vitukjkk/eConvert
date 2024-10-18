@@ -14,3 +14,20 @@
     height: 30px;
     filter: invert();
 }
+
+/* ========================== */
+/* MAIN */
+/* ========================== */
+
+.divMainBanners {
+    text-align: center;
+    height: auto;
+}
+
+.imgMainBanners {
+    max-width: 100%;
+}
+
+@keyframes changeMainBanner {
+    
+}

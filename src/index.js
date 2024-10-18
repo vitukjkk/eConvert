@@ -1,7 +1,13 @@
+// ================================
+// IMPORTANDO
+// ================================
+
 import * as main from './main.js';
 
 window.onload = () => {
-    main.changeTheme();
+    setInterval(() => {
+        main.changeMainBanner()
+    }, 5000);
 }
 
 /*

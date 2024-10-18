@@ -1,7 +1,13 @@
 /* HEADER */
 
 #divHeaderLeft {
-    text-align: left;
+    @media (max-width: 799px) {
+        text-align: center;
+    }
+
+    @media (min-width: 800px) {
+        text-align: left;
+    }
 }
 
 #divHeaderCenter {
@@ -14,5 +20,11 @@
 }
 
 #divHeaderRight {
-    text-align: right;
+    @media (max-width: 799px) {
+        text-align: center;
+    }
+
+    @media (min-width: 800px) {
+        text-align: right;
+    }
 }
