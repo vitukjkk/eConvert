@@ -2,6 +2,7 @@
     /* CORES */
     --cor-primaria: black;
     --cor-secundaria: white;
+    --cor-terciaria: gray;
     --cor-a: gray;
 
     /* TIPOGRAFIA */
@@ -14,6 +15,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
 
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -31,4 +33,8 @@ footer {
     font: var(--font-secundaria);
     padding: 1rem;
     text-align: center;
+}
+
+main {
+    margin: .5rem;
 }

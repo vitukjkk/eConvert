@@ -7,3 +7,11 @@ input[type='text'] {
     border-radius: .4rem;
     color: var(--cor-primaria);
 }
+
+button {
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+}

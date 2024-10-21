@@ -21,7 +21,7 @@ const srcBanners = {
     1: {
         src: '../assets/banners/banner_novidades.png',
         h2Content: 'Novidades',
-        pContent: 'Conheça nossas novidades'
+        pContent: 'Clique no banner e conheça nossas novidades'
         
     },
     2: {
@@ -45,6 +45,8 @@ var controlVar = {
 function changeMainBanner() {
     controlVar.mainBanner++    
     mainBanner.src = srcBanners[controlVar.mainBanner].src
+    h2MainBanners.textContent = srcBanners[controlVar.mainBanner].h2Content
+    pMainBanners.textContent = srcBanners[controlVar.mainBanner].pContent
     if(maxElements.banners === controlVar.mainBanner) {
         controlVar.mainBanner = 0
     }

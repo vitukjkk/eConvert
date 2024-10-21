@@ -22,12 +22,34 @@
 .divMainBanners {
     text-align: center;
     height: auto;
+    margin-bottom: 1rem;
 }
 
 .imgMainBanners {
     max-width: 100%;
     
     animation: changeMainBanner 10s infinite;
+}
+
+.divMainFunctions {
+    @media (min-width: 500px) and (max-width: 799px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .6rem;
+    }
+    @media (min-width: 800px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.divMainFunctionsBlock {
+    padding: 1.2rem;
+    margin: .6rem;
+
+    @media (max-width: 499px) {
+        border-bottom: 1px solid var(--cor-terciaria);
+    }
 }
 
 @keyframes changeMainBanner {
