@@ -52,6 +52,26 @@
     }
 }
 
+.divMainNotices {
+    justify-items: center;
+}
+
+.divOneNotice {
+    width: calc(50%);
+    display: inline-block;
+    border: 1px solid var(--cor-terciaria)
+}
+
+.divOneNoticeHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    span {
+        padding: .4rem;
+    }
+}
+
 @keyframes changeMainBanner {
     0% {
         transform: scale(.5);
