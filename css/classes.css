@@ -96,8 +96,16 @@
     }
 }
 
+/* ========================== */
+/* CONTACTS */
+/* ========================== */
+
 .inputMainContacts {
     width: 45%;
     height: 1.6rem;
     margin: .5rem;
+}
+
+.divMainContactsContainer {
+    margin: 1rem;
 }
