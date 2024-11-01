@@ -1,28 +1,22 @@
 // DEFININDO ELEMENTOS
-
 // =========================
 // MAIN
 // =========================
-const mainBanner = document.querySelector('.imgMainBanners')
-const h2MainBanners = document.querySelector('#h2MainBanners')
-const pMainBanners = document.querySelector('#pMainBanners')
-
+var imgMainBanner = document.querySelector('#imgMainBanners');
+var h2MainBanners = document.querySelector('#h2MainBanners');
+var pMainBanners = document.querySelector('#pMainBanners');
 // ===============================
 // DEFIINDO VARIÁVEIS
 // ===============================
-
 // CONST
-
-const maxElements = {
+var maxElements = {
     banners: 3
-}
-
-const srcBanners = {
+};
+var srcBanners = {
     1: {
         src: '../assets/banners/banner_novidades.png',
         h2Content: 'Novidades',
         pContent: 'Clique no banner e conheça nossas novidades'
-        
     },
     2: {
         src: '../assets/banners/banner_meio_ambiente.png',
@@ -34,24 +28,21 @@ const srcBanners = {
         h2Content: 'Ressurja',
         pContent: 'Ressurja, motive-se e dê a volta por cima!'
     }
-}
-
+};
 // VAR
-
 var controlVar = {
     mainBanner: 0
-}
-
+};
 function changeMainBanner() {
-    controlVar.mainBanner++    
-    mainBanner.src = srcBanners[controlVar.mainBanner].src
-    h2MainBanners.textContent = srcBanners[controlVar.mainBanner].h2Content
-    pMainBanners.textContent = srcBanners[controlVar.mainBanner].pContent
-    if(maxElements.banners === controlVar.mainBanner) {
-        controlVar.mainBanner = 0
+    controlVar.mainBanner++;
+    if (imgMainBanner && h2MainBanners && pMainBanners) {
+        imgMainBanner.src = srcBanners[controlVar.mainBanner].src;
+        h2MainBanners.textContent = srcBanners[controlVar.mainBanner].h2Content;
+        pMainBanners.textContent = srcBanners[controlVar.mainBanner].pContent;
+    }
+    if (maxElements.banners === controlVar.mainBanner) {
+        controlVar.mainBanner = 0;
     }
 }
-
-export {
-    changeMainBanner
-}
+export { changeMainBanner };
+//# sourceMappingURL=main.js.map

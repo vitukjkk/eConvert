@@ -2,7 +2,7 @@
 // IMPORTANDO
 // ================================
 
-import * as main from './main.js';
+import * as main from './main';
 
 window.onload = () => {
     setInterval(() => {
