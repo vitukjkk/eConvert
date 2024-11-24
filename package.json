@@ -4,8 +4,8 @@
   "description": "[Acesse aqui](https://vitukjkk.github.io/eConvert/)",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "webpack",
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",

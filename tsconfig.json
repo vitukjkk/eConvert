@@ -3,10 +3,10 @@
       "outDir": "./dist/",
       "sourceMap": true,
       "strict": true,
-      "module": "es6",
-      "target": "es5",
-      "jsx": "react",
+      "module": "ES6",
+      "target": "ESNext",
       "allowJs": true
-    },
-    "include": ["src/**/*"]
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
