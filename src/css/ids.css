@@ -39,3 +39,7 @@
     width: 100%;
     height: auto;
 }
+
+#imgMainLogo {
+    max-width: 100%;
+}

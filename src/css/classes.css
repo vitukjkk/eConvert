@@ -107,5 +107,22 @@
 }
 
 .divMainContactsContainer {
-    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 425px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 426px) and (max-width: 825px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (min-width: 826px) {
+        display: flex;
+    }
+}
+
+.divMainOneContact {
+    padding: .5rem;
 }
