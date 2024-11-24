@@ -39,6 +39,7 @@ import '../assets/icons/social_media/youtube_pequeno.png';
 // HEADER
 const divHeaderLeftSideR = document.querySelector('#divHeaderLeftSideR') as HTMLDivElement;
 const imgHeaderIcons = document.querySelectorAll<HTMLImageElement>('.imgHeaderIcons');
+const imgMainLogo = document.querySelector('#imgMainLogo') as HTMLImageElement;
 
 // MAIN
 const imgMainBanner = document.querySelector('#imgMainBanner') as HTMLImageElement;
@@ -68,11 +69,7 @@ imgHeaderIcons.forEach((icon, index) => {
     icon.onclick = () => {
         switch(index) {
             case 0:
-                if(divHeaderLeftSideR.style.display === 'none') {
-                    divHeaderLeftSideR.style.display = 'block';
-                } else {
-                    divHeaderLeftSideR.style.display = 'none';
-                }
+                divHeaderLeftSideR.style.display = divHeaderLeftSideR.style.display === 'none' ? 'block' : 'none';
                 break;
             case 1:
                 window.location.href = './sobre.html';
@@ -83,6 +80,8 @@ imgHeaderIcons.forEach((icon, index) => {
         }
     }
 });
+
+imgMainLogo.onclick = () => window.location.href = './index.html';
 
 // LOAD
 

@@ -136,3 +136,35 @@
         color: var(--cor-secundaria);
     }
 }
+
+/* ============================= */
+/* CONFIGURAÇÕES */
+/* ============================= */
+
+.divMainConfiguration {
+    width: fit-content;
+    margin: .6rem;
+    padding: .5rem;
+    border: 1px solid var(--color-terciaria);
+    border-radius: .4rem;
+}
+
+.configUsersTopics {
+    display: block; 
+    text-align: center;
+}
+
+.configUsersTopicsImagens {
+    width: 50px;
+    height: auto;
+    @media (prefers-color-scheme: dark) {
+        filter: invert();
+    }
+}
+
+.configUsersTopicsInputs {
+    border-radius: .3rem;
+    height: fit-content;
+    text-align: center;
+    font: var(--font-primaria);
+}
