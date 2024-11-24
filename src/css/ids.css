@@ -34,3 +34,8 @@
     display: flex;
     margin: 50px auto;
 }
+
+#imgMainBanner {
+    width: 100%;
+    height: auto;
+}

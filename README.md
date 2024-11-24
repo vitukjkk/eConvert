@@ -17,4 +17,5 @@ Conversão de vídeos e áudios (MP4, MP3, WAV, etc.)
 ##  💻 Tecnologias Utilizadas
 - HTML
 - CSS
-- JavaScript
+- TypeScript / JavaScript 
+- babel, webpack
