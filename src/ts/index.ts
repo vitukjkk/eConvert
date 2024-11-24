@@ -10,6 +10,7 @@ import '../assets/icons/general/main.ico';
 import '../assets/icons/general/icon_pages_sem_fundo.png';
 import '../assets/icons/general/icon_sobre_sem_fundo.png';
 import '../assets/icons/general/icon_config_sem_fundo.png';
+import '../assets/icons/general/icon_user_sem_fundo.png';
 
 import '../assets/images/logo_sem_fundo.png';
 
