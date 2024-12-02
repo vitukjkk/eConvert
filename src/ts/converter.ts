@@ -16,6 +16,10 @@ const inputMainValue = document.querySelector('#inputMainValue') as HTMLInputEle
 const inputConvertResult = document.querySelector('#inputConvertResult') as HTMLInputElement;
 const buttonConversions = document.querySelectorAll<HTMLInputElement>('.buttonConversions');
 
+// VARIAVEIS
+
+const MAX_MODULES = 8;
+
 // EVENTOS
 
 imgHeaderIcons.forEach((icon, index) => {
@@ -71,6 +75,75 @@ buttonConversions.forEach((button, index) => {
 // ONINPUT
 
 inputMainValue.oninput = () => inputMainValue.value = inputMainValue.value.replace(/[^0-9.-]/g, '');
+
+// ONCHANGE
+
+
+selectMainConversions.forEach((select, index) => {
+    select.style.display = 'none';
+});
+
+selectMainConversions[0].onchange = () => {
+    switch(Number(selectMainConversions[0].value)) {
+        case 0: // SELECIONE
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }  
+            selectMainConversions[0].style.display = 'flex';   
+            break;
+        case 1: // MASSA
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }
+            selectMainConversions[0].style.display = 'flex';   
+            selectMainConversions[1].style.display = 'flex';
+            break;
+        case 2: // COMPRIMENTO
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }  
+            selectMainConversions[0].style.display = 'flex';   
+            selectMainConversions[2].style.display = 'flex';
+            break;
+        case 3: // TEMPERATURA
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }  
+            selectMainConversions[0].style.display = 'flex';   
+            selectMainConversions[3].style.display = 'flex';
+            break;
+        case 4: // VELOCIDADE
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }  
+            selectMainConversions[0].style.display = 'flex';   
+            selectMainConversions[4].style.display = 'flex';
+            break;
+        case 5: // ÁREA
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }      
+            selectMainConversions[0].style.display = 'flex';   
+            selectMainConversions[5].style.display = 'flex';
+            break;
+        case 6: // VOLUME
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }      
+            selectMainConversions[0].style.display = 'flex';   
+            selectMainConversions[6].style.display = 'flex';
+            break;
+        case 7: // TEMPO
+            for(let i = 0; i < MAX_MODULES; i++) {
+                selectMainConversions[i].style.display = 'none';
+            }  
+            selectMainConversions[0].style.display = 'flex';   
+            selectMainConversions[7].style.display = 'flex';
+            break;
+    }
+}
+    
+selectMainConversions[0].style.display = 'flex';
 
 // FUNCTIONS
 
