@@ -3,13 +3,15 @@
 #divHeaderLeft {
     display: flex;
     align-items: center;
-    @media (max-width: 799px) {
-        text-align: center;
+
+    @media (max-width: 800px) {
+        text-align: left;
+        flex-direction: column;
+    }
+    @media (min-width: 800px) {
+        justify-content: space-between;
     }
 
-    @media (min-width: 800px) {
-        text-align: left;
-    }
 }
 
 #divHeaderCenter {
@@ -48,16 +50,24 @@
 
 #ulHeaderLeftMenu {
     display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 #divHeaderLeftSideR {
     display: none;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-content: center;
     align-items: center;
     border-radius: .4rem;
     margin: .4rem;
-    width: 100%;
+    max-width: 100%;
+    width: fit-content;
 
     @media (prefers-color-scheme: dark) {
         background-color: var(--cor-secundaria);
