@@ -18,7 +18,7 @@ const buttonConversions = document.querySelectorAll<HTMLInputElement>('.buttonCo
 
 // VARIAVEIS
 
-const MAX_MODULES = 8;
+const MAX_MODULES = 15;
 
 // EVENTOS
 
@@ -97,6 +97,7 @@ selectMainConversions[0].onchange = () => {
             }
             selectMainConversions[0].style.display = 'flex';   
             selectMainConversions[1].style.display = 'flex';
+            selectMainConversions[8].style.display = 'flex';   
             break;
         case 2: // COMPRIMENTO
             for(let i = 0; i < MAX_MODULES; i++) {
@@ -104,6 +105,7 @@ selectMainConversions[0].onchange = () => {
             }  
             selectMainConversions[0].style.display = 'flex';   
             selectMainConversions[2].style.display = 'flex';
+            selectMainConversions[9].style.display = 'flex';   
             break;
         case 3: // TEMPERATURA
             for(let i = 0; i < MAX_MODULES; i++) {
@@ -111,6 +113,7 @@ selectMainConversions[0].onchange = () => {
             }  
             selectMainConversions[0].style.display = 'flex';   
             selectMainConversions[3].style.display = 'flex';
+            selectMainConversions[10].style.display = 'flex';   
             break;
         case 4: // VELOCIDADE
             for(let i = 0; i < MAX_MODULES; i++) {
@@ -118,6 +121,7 @@ selectMainConversions[0].onchange = () => {
             }  
             selectMainConversions[0].style.display = 'flex';   
             selectMainConversions[4].style.display = 'flex';
+            selectMainConversions[11].style.display = 'flex';   
             break;
         case 5: // ÁREA
             for(let i = 0; i < MAX_MODULES; i++) {
@@ -125,6 +129,7 @@ selectMainConversions[0].onchange = () => {
             }      
             selectMainConversions[0].style.display = 'flex';   
             selectMainConversions[5].style.display = 'flex';
+            selectMainConversions[12].style.display = 'flex';   
             break;
         case 6: // VOLUME
             for(let i = 0; i < MAX_MODULES; i++) {
@@ -132,6 +137,7 @@ selectMainConversions[0].onchange = () => {
             }      
             selectMainConversions[0].style.display = 'flex';   
             selectMainConversions[6].style.display = 'flex';
+            selectMainConversions[13].style.display = 'flex';     
             break;
         case 7: // TEMPO
             for(let i = 0; i < MAX_MODULES; i++) {
@@ -139,6 +145,7 @@ selectMainConversions[0].onchange = () => {
             }  
             selectMainConversions[0].style.display = 'flex';   
             selectMainConversions[7].style.display = 'flex';
+            selectMainConversions[14].style.display = 'flex';   
             break;
     }
 }
