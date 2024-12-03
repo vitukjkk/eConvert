@@ -19,6 +19,7 @@ fique livre, leve e solto para contribuir como quiser, toda ajuda é bem-vinda! 
 fiz para adaptar às diferentes telas!
 
 ## 🚀 Funcionalidades / Módulos
+unidades de conversão
 ### Massa
 - Quilograma (kg)
 - Grama (g)
@@ -36,5 +37,16 @@ fiz para adaptar às diferentes telas!
 - Pé (ft)
 - Jarda (yd)
 - Milha (mi)
+
+### Temperatura
+- Celsius (°C)
+- Fahrenheit (°F)
+- Kelvin (K)
+
+### Velocidade
+- Metros por segundo (m/s)
+- Quilômetros por hora (km/h)
+- Milhas por hora (mph)
+- Nós (knots)
 
 PS: esses são os módulos que coloquei até agora, se tiver mais sugestões é só falar! #TMJ
