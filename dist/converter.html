@@ -1,1 +1,200 @@
-<head><script defer src="converter.bundle.js"></script></head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eConvert - Página Inicial</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/main.ico">
+<script defer src="converter.bundle.js"></script></head>
+<body>
+    <header>
+        <div id="divHeaderLeft" class="divHeader">
+            <div id="divHeaderLeftSideL">
+                <img id="headerButtonsPages" src="images/icon_pages_sem_fundo.png" class="imgHeaderIcons">
+            </div>
+            <div id="divHeaderLeftSideR">
+                <ul id="ulHeaderLeftMenu">
+                    <li>
+                        <a href="index.html" class="linksMenu">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="converter.html" class="linksMenu">
+                            Converter
+                        </a>
+                    <li>
+                        <a href="sobre.html" class="linksMenu">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="configuracoes.html" class="linksMenu">
+                            Configurações
+                       </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="divHeaderCenter" class="divHeader">
+            <img id="imgMainLogo" src="images/logo_sem_fundo.png">
+        </div>
+
+        <div id="divHeaderRight" class="divHeader">
+            <input
+                type="text"
+                placeholder="o que você procura?">
+            <img src="images/icon_sobre_sem_fundo.png" class="imgHeaderIcons">
+            <img src="images/icon_config_sem_fundo.png" class="imgHeaderIcons">
+        </div>
+    </header>
+
+    <main>
+        <h2>Conversão</h2>
+        <p>
+            olá, seja bem-vindo! escolha seu módulo e inicie sua conversão! 
+        </p>
+        <h3>Módulo</h3>
+        <select class="selectMainConversions">
+            <option value="0">Selecione o módulo</option>
+            <option value="1">Massa</option>
+            <option value="2">Comprimento</option>
+            <option value="3">Temperatura</option>
+            <option value="4">Velocidade</option>
+            <option value="5">Área</option>
+            <option value="6">Volume</option>
+            <option value="7">Tempo</option>
+        </select>
+        <h3>De</h3>
+        <input id="inputMainValue" type="text"><br><br>
+        <select class="selectMainConversions">
+            <option value="kg">Quilograma (kg)</option>
+            <option value="g">Grama (g)</option>
+            <option value="mg">Miligrama (mg)</option>
+            <option value="t">Tonelada (t)</option>
+            <option value="lb">Libra (lb)</option>
+            <option value="oz">Onça (oz)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="m">Metro (m)</option>
+            <option value="cm">Centímetro (cm)</option>
+            <option value="mm">Milímetro (mm)</option>
+            <option value="km">Quilômetro (km)</option>
+            <option value="in">Polegada (in)</option>
+            <option value="ft">Pé (ft)</option>
+            <option value="yd">Jarda (yd)</option>
+            <option value="mi">Milha (mi)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="c">Celsius (°C)</option>
+            <option value="f">Fahrenheit (°F)</option>
+            <option value="k">Kelvin (K)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="mps">Metros por segundo (m/s)</option>
+            <option value="kmh">Quilômetros por hora (km/h)</option>
+            <option value="mph">Milhas por hora (mph)</option>
+            <option value="knots">Nós (knots)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="m2">Metro quadrado (m²)</option>
+            <option value="cm2">Centímetro quadrado (cm²)</option>
+            <option value="km2">Quilômetro quadrado (km²)</option>
+            <option value="ha">Hectare (ha)</option>
+            <option value="acre">Acre</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="m3">Metro cúbico (m³)</option>
+            <option value="l">Litro (L)</option>
+            <option value="ml">Mililitro (mL)</option>
+            <option value="cm3">Centímetro cúbico (cm³ ou cc)</option>
+            <option value="km3">Quilômetro cúbico (km³)</option>
+            <option value="gal">Galão (gal)</option>
+            <option value="gal_us">Galão americano (3,785 L)</option>
+            <option value="gal_imp">Galão imperial (4,546 L)</option>
+            <option value="bbl">Barril de petróleo (≈ 159 L)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="s">Segundo (s)</option>
+            <option value="min">Minuto (min)</option>
+            <option value="h">Hora (h)</option>
+            <option value="d">Dia (d)</option>
+            <option value="week">Semana</option>
+            <option value="month">Mês</option>
+            <option value="year">Ano (a)</option>
+        </select>
+        <h3>Para</h3>
+        <select class="selectMainConversions">
+            <option value="kg">Quilograma (kg)</option>
+            <option value="g">Grama (g)</option>
+            <option value="mg">Miligrama (mg)</option>
+            <option value="t">Tonelada (t)</option>
+            <option value="lb">Libra (lb)</option>
+            <option value="oz">Onça (oz)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="m">Metro (m)</option>
+            <option value="cm">Centímetro (cm)</option>
+            <option value="mm">Milímetro (mm)</option>
+            <option value="km">Quilômetro (km)</option>
+            <option value="in">Polegada (in)</option>
+            <option value="ft">Pé (ft)</option>
+            <option value="yd">Jarda (yd)</option>
+            <option value="mi">Milha (mi)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="c">Celsius (°C)</option>
+            <option value="f">Fahrenheit (°F)</option>
+            <option value="k">Kelvin (K)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="mps">Metros por segundo (m/s)</option>
+            <option value="kmh">Quilômetros por hora (km/h)</option>
+            <option value="mph">Milhas por hora (mph)</option>
+            <option value="knots">Nós (knots)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="m2">Metro quadrado (m²)</option>
+            <option value="cm2">Centímetro quadrado (cm²)</option>
+            <option value="km2">Quilômetro quadrado (km²)</option>
+            <option value="ha">Hectare (ha)</option>
+            <option value="acre">Acre</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="m3">Metro cúbico (m³)</option>
+            <option value="l">Litro (L)</option>
+            <option value="ml">Mililitro (mL)</option>
+            <option value="cm3">Centímetro cúbico (cm³ ou cc)</option>
+            <option value="km3">Quilômetro cúbico (km³)</option>
+            <option value="gal">Galão (gal)</option>
+            <option value="gal_us">Galão americano (3,785 L)</option>
+            <option value="gal_imp">Galão imperial (4,546 L)</option>
+            <option value="bbl">Barril de petróleo (≈ 159 L)</option>
+        </select>
+        <select class="selectMainConversions">
+            <option value="s">Segundo (s)</option>
+            <option value="min">Minuto (min)</option>
+            <option value="h">Hora (h)</option>
+            <option value="d">Dia (d)</option>
+            <option value="week">Semana</option>
+            <option value="month">Mês</option>
+            <option value="year">Ano (a)</option>
+        </select>
+        <button class="buttonConversions">Converter</button>
+        <h2>Resultado</h2>
+        <input id="inputConvertResult" type="text" readonly="readonly"><br>
+        <button class="buttonConversions">CONVERTER NOVAMENTE</button>
+    </main>
+
+    <footer>
+        <strong>eConvert</strong> - 2024 &copy - por 
+        <a href="https://github.com/vitukjkk/" target="_blank">
+            vitukjkkk
+        </a>
+    </footer>
+
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>

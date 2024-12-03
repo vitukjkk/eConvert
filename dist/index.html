@@ -10,11 +10,36 @@
 <body>
     <header>
         <div id="divHeaderLeft" class="divHeader">
-            <img src="images/icon_pages_sem_fundo.png" class="imgHeaderIcons">
+            <div id="divHeaderLeftSideL">
+                <img id="headerButtonsPages" src="images/icon_pages_sem_fundo.png" class="imgHeaderIcons">
+            </div>
+            <div id="divHeaderLeftSideR">
+                <ul id="ulHeaderLeftMenu">
+                    <li>
+                        <a href="index.html" class="linksMenu">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="converter.html" class="linksMenu">
+                            Converter
+                        </a>
+                    <li>
+                        <a href="sobre.html" class="linksMenu">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="configuracoes.html" class="linksMenu">
+                            Configurações
+                       </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
+        
         <div id="divHeaderCenter" class="divHeader">
-            <img src="images/logo_sem_fundo.png">
+            <img id="imgMainLogo" src="images/logo_sem_fundo.png">
         </div>
 
         <div id="divHeaderRight" class="divHeader">
@@ -101,7 +126,7 @@
             <div class="divOneNotice">
                 <div class="divOneNoticeHeader">
                     <span id="spanOneNoticeTitle">
-                        <strong>Ola Mundo</strong>
+                        <strong>eConvert finalizado</strong>
                     </span>    
                     <span id="spanOneNoticeData">12/04/2020 - 13:50h</span>
                 </div>
@@ -112,7 +137,7 @@
 
                 <div class="divOneNoticeFooter">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, consectetur quis accusamus ipsam inventore eaque, possimus dolor natus ducimus ea illum non temporibus hic, nemo sunt eveniet labore quibusdam vitae.
+                        Fala galera! Terminei a maioria das funções do eConvert, agora irei focar em outros projetos, obrigado por estar aqui! :)
                     </p>
                     <button><</button>
                     <button>></button>
@@ -132,18 +157,60 @@
                     name="inputMainContacts"
                     class="inputMainContacts"
                     type="text"><br>
-                <button>
+                <button id="buttonEnviarContato">
                     Enviar
                 </button>
             </div>
+
             <div class="divMainContactsContainer">
-                <img src="images/zap_pequeno.png" href="wa">
-                <img src="images/github_pequeno.png">
-                <img src="images/ig_pequeno.png">
-                <img src="images/linkedin_pequeno.png">
-                <img src="images/pinterest_pequeno.png">
-                <img src="images/tik-tok_pequeno.png">
-                <img src="images/youtube_pequeno.png">
+
+                <div class="divMainOneContact">
+                    <a href="https://wa.me/5561994030749?text=ola!%20vim%20do%20Resolve%20Tudo!" target="_blank">
+                        <img src="images/zap_pequeno.png" alt="ícone whatsapp" >
+                    </a>
+                </div>
+
+                <div class="divMainOneContact">
+                    <a href="https://instagram.com/vitukjkkk" target="_blank">
+                        <img src="images/ig_pequeno.png" alt="ícone instagram">
+                    </a>
+                </div>
+
+                <div class="divMainOneContact">
+                    <a id="imgMainContactGitHub" href="https://github.com/vitukjkk" target="_blank">
+                        <img src="images/github_pequeno.png" alt="ícone github">
+                    </a>
+                </div>
+
+                <div class="divMainOneContact">
+                    <a href="https://www.linkedin.com/in/vitor-colombelli-75b115253/" target="_blank">
+                        <img src="images/linkedin_pequeno.png" alt="ícone tiktok">
+                    </a>
+                </div>
+
+                <div class="divMainOneContact">
+                    <a href="https://www.facebook.com/seituuu.u/" target="_blank">
+                        <img src="images/facebook_pequeno.png" alt="ícone facebook">
+                    </a>
+                </div>
+                
+                <div class="divMainOneContact">
+                    <a href="https://youtube.com/%40vitukjkkk" target="_blank">
+                        <img src="images/youtube_pequeno.png" alt="ícone youtube">
+                    </a>
+                </div>
+
+                <div class="divMainOneContact">
+                    <a href="https://www.tiktok.com/%40vituuuuuu.u?lang=pt-BR" target="_blank">
+                        <img src="images/tik-tok_pequeno.png" alt="ícone tiktok">
+                    </a>
+                </div>
+
+                <div class="divMainOneContact">
+                    <a href="https://br.pinterest.com/vitukjkkk/" target="_blank">
+                        <img src="images/pinterest_pequeno.png" alt="ícone tiktok">
+                    </a>
+                </div>
             </div>
         </div>
     </main>

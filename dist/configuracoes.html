@@ -1,1 +1,200 @@
-<head><script defer src="configuracoes.bundle.js"></script></head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eConvert - Página Inicial</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/main.ico">
+<script defer src="configuracoes.bundle.js"></script></head>
+<body>
+    <header>
+        <div id="divHeaderLeft" class="divHeader">
+            <div id="divHeaderLeftSideL">
+                <img id="headerButtonsPages" src="images/icon_pages_sem_fundo.png" class="imgHeaderIcons">
+            </div>
+            <div id="divHeaderLeftSideR">
+                <ul id="ulHeaderLeftMenu">
+                    <li>
+                        <a href="index.html" class="linksMenu">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="converter.html" class="linksMenu">
+                            Converter
+                        </a>
+                    <li>
+                        <a href="sobre.html" class="linksMenu">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="configuracoes.html" class="linksMenu">
+                            Configurações
+                       </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="divHeaderCenter" class="divHeader">
+            <img id="imgMainLogo" src="images/logo_sem_fundo.png">
+        </div>
+
+        <div id="divHeaderRight" class="divHeader">
+            <input
+                type="text"
+                placeholder="o que você procura?">
+            <img src="images/icon_sobre_sem_fundo.png" class="imgHeaderIcons">
+            <img src="images/icon_config_sem_fundo.png" class="imgHeaderIcons">
+        </div>
+    </header>
+
+    <main>
+        <h1>Configurações</h1>
+        <p>
+            ajuste suas preferências de uso do site!
+        </p>
+
+        <div id="divConfiguracoes">
+            <div class="divMainConfiguration">
+                <h2>
+                    Notificações
+                </h2>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Ativar notificações
+                    </span>
+                    <input type="checkbox">
+                </div>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Tipo de notificação
+                    </span>
+                    <select name="selectConfigNotificationType" id="selectConfigNotificationType">
+                        <option value="email">Email</option>
+                        <option value="push">Push</option>
+                        <option value="sms">SMS</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="divMainConfiguration">
+                <h2>
+                    Tema
+                </h2>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                    Tipo de tema
+                    </span>
+                    <select name="selectConfigThemeType" id="selectConfigThemeType">
+                        <option value="dark">Escuro</option>
+                        <option value="light">Claro</option>
+                        <option value="device">Seguir dispositivo</option>
+                        <option value="personal">Personalizado</option>
+                    </select>
+                </div>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Menu acessibilidade
+                    </span>
+                    <input type="checkbox">
+                </div>
+            </div>
+
+            <div class="divMainConfiguration">
+                <h2>
+                    Privacidade
+                </h2>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Perfil público
+                    </span>
+                    <input type="checkbox">
+                </div>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Informações públicas
+                    </span>
+                    <input type="checkbox">
+                </div>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Autenticação Multifatorial (2FA)
+                    </span>
+                    <input type="checkbox">
+                </div>
+            </div>
+
+            <div class="divMainConfiguration">
+                <h2>
+                    Idioma
+                </h2>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Conteúdo do site
+                    </span>
+                    <select name="selectConfigSiteLanguage" id="selectConfigSiteLanguage">
+                        <option value="pt">Português</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+
+                <div class="divMainConfigurationOne">
+                    <span>
+                        Comunicações
+                    </span>
+                    <select name="selectConfigCommsLanguage" id="selectConfigCommsLanguage">
+                        <option value="pt">Português</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="divMainConfiguration">
+                <h2>
+                    Perfil
+                </h2>
+
+                <span class="configUsersTopics">Name</span>
+                <img class="configUsersTopicsImagens" src="images/icon_user_sem_fundo.png" alt="foto do usuário">
+                <span class="configUsersTopics">username</span>
+                <span class="configUsersTopics">email</span>
+                <input type="text" class="configUsersTopicsInputs" name="inputConfigUserBio" id="inputConfigUserBio">
+                <div class="divConfigUsersTopicsLinks">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">WhatsApp</a>
+                </div>
+
+                <!-- 
+                NAME
+                PHOTO
+                USER
+                EMAIL
+                BIO
+                LINKS -->
+            </div>
+        </div>    
+    </main>
+
+    <footer>
+        <strong>eConvert</strong> - 2024 &copy - por 
+        <a href="https://github.com/vitukjkk/" target="_blank">
+            vitukjkkk
+        </a>
+    </footer>
+
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>
