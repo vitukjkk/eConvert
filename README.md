@@ -49,4 +49,31 @@ unidades de conversão
 - Milhas por hora (mph)
 - Nós (knots)
 
+### Área
+- Metro quadrado (m²)
+- Centímetro quadrado (cm²)
+- Quilômetro quadrado (km²)
+- Hectare (ha)
+- Acre
+
+### Volume
+- Metro cúbico (m³)
+- Litro (L)
+- Mililitro (ml)
+- Centímetro cúbico (cm³)
+- Quilômetro cúbico (km³)
+- Galão (gal)
+- Galão americano (3,785 L)
+- Galão imperial (4,546 L)
+- Barril de petróleo (~ 159 L)
+
+### Tempo
+- Segundo (s)
+- Minuto (min)
+- Hora (h)
+- Dia (d)
+- Semana
+- Mês
+- Ano (a)
+
 PS: esses são os módulos que coloquei até agora, se tiver mais sugestões é só falar! #TMJ
